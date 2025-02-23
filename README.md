@@ -25,11 +25,3 @@ Run the script: Execute the Python script to start checking the file:
     
 The script will calculate the hash of the specified files and compare them to stored hash values. If any changes are detected, it will display a message.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Preview Image
-
-Here’s a screenshot of the project:
-
-![Screenshot](Screenshot.png.png)
