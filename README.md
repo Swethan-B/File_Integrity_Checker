@@ -2,7 +2,7 @@
 A Python-based tool to monitor file integrity by calculating and comparing hash values (e.g., SHA-256). This tool helps detect unauthorized changes, modifications, or deletions of files, ensuring the integrity of critical system or application files.
 
 ## Introduction
-The File Integrity Checker is a simple but effective Python script that monitors files by calculating their hash values (using SHA-256) and comparing these hashes over time. If any file is modified, added, or deleted, the tool alerts the user about the change. This tool can be used for detecting unauthorized file modifications, ensuring data integrity, and complying with security standards in various environments.
+The File Integrity Checker is a simple but effective Python script that monitors files by calculating their hash values (using SHA-256) and comparing these hashes. If any file is modified, added, or deleted, the tool alerts the user about the change. This tool can be used for detecting unauthorized file modifications, ensuring data integrity, and complying with security standards in various environments.
 
 ## Installation
 
@@ -19,6 +19,7 @@ Edit the file_path : Open Checker.py and specify the file you wish to check. Exa
 Edit the stored_hash :  Open Checker.py and specify the sha-256 hash value of the original file. Example:
 
     stored_hash = 'steftwjg324fHSGUAYVHAGDVAHFY'
+    
 Run the script: Execute the Python script to start checking the file:
 
     python3 Checker.py
